@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         
         if leftImage > rightImage {
 //            left side wins
-            leftscore += 1
+            leftscore += 2
             LeftScoreLabel.text = String(leftscore)
         }
         else if leftImage < rightImage {
